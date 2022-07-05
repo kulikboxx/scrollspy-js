@@ -1,0 +1,80 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: black;
+  font-size: 1.6rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 2rem 1rem;
+  background-color: #fff;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  z-index: 5;
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.header__list-item-link {
+  padding: 0 3rem;
+  color: inherit;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header__list-item-link.active {
+  color: blue;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  font-size: 7rem;
+  border-bottom: 2px solid silver;
+}
+
+#price {
+  height: 50vh;
+}
+
+footer {
+  padding: 3rem 1rem;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */
